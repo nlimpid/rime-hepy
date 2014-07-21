@@ -1,0 +1,25 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.9.30
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Mon Jul 21 11:07:43 2014"
+  rime_version: 1.1.2
+patch:
+  "ascii_composer/good_old_caps_lock": true
+  "ascii_composer/switch_key":
+    Caps_Lock: commit_code
+    Control_L: commit_code
+    Control_R: noop
+    Shift_L: noop
+    Shift_R: commit_code
+  "menu/page_size": 5
+  schema_list:
+    - {schema: luna_pinyin}
+    - {schema: cangjie5}
+    - {schema: luna_pinyin_fluency}
+    - {schema: luna_pinyin_simp}
+    - {schema: luna_pinyin_tw}
+    - {schema: double_pinyin_flypy}
+    - {schema: hepy}
+  "switcher/hotkeys":
+    - "Control+grave"
